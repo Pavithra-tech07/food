@@ -1,0 +1,94 @@
+// import React from 'react';
+// import { Link, Outlet } from 'react-router-dom';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import img1 from './logo.png'
+// import img2 from './big2.webp'
+// import img3 from './dosa.avif'
+// import img4 from './food.avif'
+// import './Home.css'
+
+// export default function Home() {
+//   return (
+//     <div className='main'>
+     
+//       <div className="row">
+//       <nav class="navbar navbar-expand-lg  bg-warning position-fixed w-100 z-3">
+//       <div class="container-fluid">
+//       <img
+//           src={img1}
+//           alt="Brand Logo"
+//           width="100"
+//            height="100"
+//            className="d-inline-block align-text-top mx-5" />
+           
+//         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+//           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+//           <span class="navbar-toggler-icon"></span>
+//         </button>
+//         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+//           <ul class="navbar-nav">
+//           <li className="nav-item mx-5 mt-2 fs-4 ">
+//                 <Link className="nav-link" to="/home">Home</Link>
+//               </li>
+//               <li className="nav-item mx-5 mt-2 fs-4 ">
+//                 <Link className="nav-link" to="/about">About</Link>
+//               </li>
+//               <li className="nav-item mx-5 mt-2 fs-4 ">
+//                 <Link className="nav-link" to="/menu">Menu</Link>
+//               </li>
+//               <li className="nav-item mx-5 mt-2 fs-4 ">
+//                 <Link className="nav-link" to="/contact">Contact</Link>
+//               </li>
+//           </ul>
+         
+
+//         </div>
+//       </div>
+//     </nav>
+
+//     </div>
+
+
+//      <div className="row">
+//      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+//   <div class="carousel-inner">
+//     <div class="carousel-item active">
+//       <img src={img2} class="d-block w-100" alt="..."/>
+//     </div>
+//     <div class="carousel-item">
+//       <img src={img3} class="d-block w-100" alt="..."/>
+//     </div>
+//     <div class="carousel-item">
+//       <img src={img4} class="d-block w-100" alt="..."/>
+//     </div>
+//   </div>
+//   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+//     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+//     <span class="visually-hidden">Previous</span>
+//   </button>
+//   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+//     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+//     <span class="visually-hidden">Next</span>
+//   </button>
+// </div>
+//     </div>
+
+//       <div className="row mt-5 mx-4" style={{color:"red"}}>
+//         <h4>Welcome to TastyTables - A Feast for Every Taste!</h4>
+//         <p className='para1 mx-5 mt-3'   >At TastyTables, we believe every meal is an opportunity to create unforgettable moments. 
+//           Our passion is bringing you a variety of delicious, wholesome, and mouthwatering 
+//           recipes that make cooking a joy and dining a delight.</p>
+//       </div>
+
+
+//       <div className="container mt-4">
+//         <Outlet />
+//       </div>
+
+
+
+//     </div>   //main div
+//   );
+// }
+
+// --------------------------------------------------------------------------
